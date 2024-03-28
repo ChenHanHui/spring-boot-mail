@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.com">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>您好！ <span style="color:red;" th:text="${username}"></span> 这是测试邮件</h3>
+<br>
+<p>信息：<span th:text="${message}"></span></p>
+<br>
+<hr style="border:none; border-top: 1px solid gray; height:1px;">
+<br>自动发送邮件，不要回复<br>
+</body>
+</html>
